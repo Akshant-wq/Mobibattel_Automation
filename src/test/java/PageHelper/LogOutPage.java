@@ -14,7 +14,7 @@ public class LogOutPage extends basePage {
 		PageFactory.initElements(driver, this);
 	}
    
-	@FindBy(xpath="(//img[@class='object-cover h-full w-full optimize-contrast'])[1]")
+	@FindBy(xpath="//a[@href='#/myprofile']")
 	private WebElement pfimg;
 	
 	@FindBy(xpath="//h5[@class='p-3 text-white text-center 3xs:text-xs 2xs:text-sm 1xs:text-base xs:text-lg sm:text-xl h5 tracking-normal list-none']")
